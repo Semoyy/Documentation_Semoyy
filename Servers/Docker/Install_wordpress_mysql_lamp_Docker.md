@@ -44,3 +44,7 @@ Après avoir suivi ces étapes, vous pourrez installer Docker avec LAMP sur votr
 ```bash
    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+Apres on a besoin de runner notre conteneur :
+```bash
+sudo docker run -i -t -p "80:80" -v ${PWD}/www:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest
+```
