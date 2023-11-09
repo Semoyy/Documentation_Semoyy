@@ -1,7 +1,19 @@
 Pour la preparation on a besoin de ces commandes pour notre conteneur:
 
+Commençons donc par créer des répertoires pour le contenu que l'on souhaite modifier et conserver, en l'occurrence les fichiers du site et les bases de donnés :
 ```bash
 mkdir -p ~/conteneur/www ~/conteneur/mysql
+```
+Rendons les lisibles et modifiables par Docker :
+
+```bash
+chmod 777 ~/conteneur/www ~/conteneur/mysql
+```
+
+Aller dans le répertoire du conteneur :
+
+```bash
+cd ~/conteneur
 ```
 
 ```bash
