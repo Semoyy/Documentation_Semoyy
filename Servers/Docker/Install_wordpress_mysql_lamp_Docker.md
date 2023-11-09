@@ -60,8 +60,11 @@ Il va le falloir le detruire avec `Ctrl+C` ensuite pour le run en background ave
 ```bash
 docker run -i -t -p "80:80" -v ${PWD}/www:/app -v ${PWD}/mysql:/var/lib/mysql -d mattrayner/lamp:latest
 ```
-Le `CONTAINER_ID` qui va en decouler sera important pour le restant car nous allons en avoir besoin pour verifier son fonctionnement :
-`4a0d5326d0833930a60782eb77f07963bb3931c21632813663a3a9ab02c40222` pour mon cas
+Le `CONTAINER_ID` qui va en decouler sera important pour le restant car nous allons en avoir besoin pour verifier son fonctionnement.
+`4a0d5326d0833930a60782eb77f07963bb3931c21632813663a3a9ab02c40222` pour mon cas sera utiliser dans cette commande: 
+```bash
+sudo docker logs 4a0d5326d0833930a60782eb77f07963bb3931c21632813663a3a9ab02c40222
+```
 
 
 
