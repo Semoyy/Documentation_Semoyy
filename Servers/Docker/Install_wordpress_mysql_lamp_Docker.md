@@ -28,4 +28,7 @@ Voici comment vous pouvez exécuter ces commandes sur un serveur Ubuntu :
    sudo apt-get update
    ```
 
-Après avoir suivi ces étapes, vous pourrez installer Docker sur votre serveur Ubuntu à l'aide de la commande `sudo apt-get install docker-ce`.
+Après avoir suivi ces étapes, vous pourrez installer Docker avec LAMP sur votre serveur Ubuntu à l'aide de la commande :
+   ```bash
+   sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   ```
