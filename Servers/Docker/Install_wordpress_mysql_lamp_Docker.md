@@ -48,3 +48,13 @@ Apres on a besoin de runner notre conteneur :
 ```bash
 sudo docker run -i -t -p "80:80" -v ${PWD}/www:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest
 ```
+![image](https://github.com/Semoyy/Documentation_Semoyy/assets/89610220/99db2f5d-f5aa-4832-9c8e-a60bb23eb058)
+
+Dans se screen montre le user et passwd : 
+
+```bash
+mysql -uadmin -pGVrow68Big56 -h<host> -P<port>
+```
+
+
+
