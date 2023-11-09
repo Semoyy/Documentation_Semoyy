@@ -56,5 +56,10 @@ Dans se screen montre le user et passwd :
 mysql -uadmin -pGVrow68Big56 -h<host> -P<port>
 ```
 
+Il va le falloir le detruire avec `Ctrl+C` ensuite pour le run en background avec `-d` puis le nom du conteneur :
+```bash
+docker run -i -t -p "80:80" -v ${PWD}/www:/app -v ${PWD}/mysql:/var/lib/mysql -d mattrayner/lamp:latest
+```
+
 
 
