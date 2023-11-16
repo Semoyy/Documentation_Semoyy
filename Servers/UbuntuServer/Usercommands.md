@@ -1,1 +1,1 @@
-# Bienvenue dans le registre de commande pour les utilisateurs de Ubuntu Server
+# Registre de commande pour utilisateurs de Ubuntu Server
