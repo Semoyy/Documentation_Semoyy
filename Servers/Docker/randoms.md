@@ -49,46 +49,46 @@ Stop current command
 ```bash
 CTRL-c
 ```	
-
+Sleep program
 CTRL-z
 	
-Sleep program
+Go to start of line
 CTRL-a
 	
-Go to start of line
+Go to end of line
 CTRL-e
 	
-Go to end of line
+Cut from start of line
 CTRL-u
 	
-Cut from start of line
+Cut to end of line
 CTRL-k
 	
-Cut to end of line
+Search history
 CTRL-r
 	
-Search history
+Repeat last command
 !!
 	
-Repeat last command
+Run last command starting with abc
 !abc
 	
-Run last command starting with abc
+Print last command starting with abc
 !abc:p
 	
-Print last command starting with abc
+Last argument of previous command
 !$
 	
 Last argument of previous command
 ALT-.
 	
-Last argument of previous command
+All arguments of previous command
 !*
 	
-All arguments of previous command
+Run previous command, replacing abc with 123
 ^abc^123
 	
-Run previous command, replacing abc with 123
+
 Bash Variables
 env
 	
