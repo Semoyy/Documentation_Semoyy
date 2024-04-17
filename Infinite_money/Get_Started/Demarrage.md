@@ -1,1 +1,0 @@
-# Démarrage de la machine a imprimer de l'argent
