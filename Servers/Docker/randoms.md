@@ -1,5 +1,7 @@
 # Commandes pratiques
 
+## Commande du Bash
+
 Changer le hostname :
 ```bash
 hostnamectl hostname [HOSTNAME]
@@ -41,7 +43,7 @@ Show manual for command
 man command
 ```	
 
-# Bash Shortcuts
+## Bash Shortcuts
 
 Stop current command
 ```bash
